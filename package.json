@@ -1,0 +1,20 @@
+{
+  "name": "beheiry",
+  "version": "1.0.0",
+  "description": "Project to test the limits of software engineering, and a training ground.",
+  "homepage": "https://github.com/Beheiryy/Beheiry#readme",
+  "bugs": {
+    "url": "https://github.com/Beheiryy/Beheiry/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Beheiryy/Beheiry.git"
+  },
+  "license": "MIT",
+  "author": "Omar Beheiry",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
