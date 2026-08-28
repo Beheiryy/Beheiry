@@ -12,3 +12,5 @@ Critical to achieving anything, however, is mastering Software Engineering. I do
 ## Log
 ### 28/8/2026
 Earlier this week I've had the idea of this project and planend the basics, including the sitemap. I've started delving into javascript & typescript because I did not know anything about them. Created the github repo and created a Vercel account, which I've connected with the project. Started this *log*, which aims to be a short description of work done when it's done. Reflects not only consistency but learning. 
+
+Note: Figma is a whole world by itself! I just searched up "sitemap template" and found a Figma one and changed the elements inside of it. Otherwise it would've taken my a whole lot of time just to get the rectangles in place! This is the [template](https://www.figma.com/community/file/1357281387241619479/information-architecture-sitemap-builder-for-figma) I used. 
