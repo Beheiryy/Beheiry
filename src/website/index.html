@@ -4,14 +4,82 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <style>
-            body {background-color:thistle}
-            p {color:brown}
+            body {background-color:lightgoldenrodyellow}
+            quote {
+                font-family: monospace;
+                display: flex;
+                padding: 5px 10% 5px 10%; /*order: top, right, bottom, left*/
+            }
+
+            .default_navbar{
+                /* color: brown; note how it does not apply because technically the links are inside the li not inside the ul*/ 
+                display: flex;
+                list-style-type:none;
+                margin: 0;
+                padding: 0;
+                /*justify-content: center;*/
+                gap: 2%;
+            }
+
+            .experience{
+                display:flex;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                gap: 2%
+            }
+
+            .experience_photo_frame{
+                max-width: 200px;
+                max-height:200px;
+            }
+
+            .experience_photo_frame img{
+                max-width: 100%;
+                max-height: 100%;
+            }
+
         </style>
         <title>Beheiry</title>
     </head>
 
     <body>
-        The project has officially started!
+        <!-- A navbar is just a list of links -->
+        <div>
+            <ul class="default_navbar">
+                <li><a href="">WHO</a> </li>
+                <li><a href="">LAB</a> </li>
+                <li><a href="">WORKSHOP</a></li>
+                <li><a href="">ENGINE</a></li>
+                <li><a href="">WORLD</a></li>
+                <li><a href="">LORE</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h1>Who is Beheiry?</h1>
+            <quote>Beheiry is a man of focus, commitment, and sheer will. Behiery is an Egyptian man who plans to change Egypt & the Middle East to become the leading nations of the world. 
+                He is planning to do that through entrepreneurship, sports, and social influence. He wants the population in the region to be mobilize towards a better future not by word but by action. 
+            </quote>
+        </div>
+
+        <div>
+            <h2>Experiences</h2>
+            <div class="experience">
+                <div class = "experience_photo_frame">
+                    <img src="../images/Texula_web_logo.png" alt="">
+                </div>
+                <div>
+                    <h3>Chief Commercial Officer</h3>
+                    <h4>Texula</h4>
+                    <h4>Full time</h4>
+                    <h4>Jun 2026 - Present</h4>
+                    <h4>Egypt</h4>
+                    <h4>Hybrid</h4>
+                </div>
+            </div>
+            <p>Description: got invovled in every aspect of the business, but focused on the commercials. Got clients in two forms: manufacturers and brands.</p>
+        </div>
+
         <script src="index.js"></script>
     </body>
 </html>

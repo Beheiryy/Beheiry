@@ -9,5 +9,3 @@ function createUser(userName, userPass){
 
 console.log(user);
 createUser("omar", "1222");
-
-alert("i'm availble!");
