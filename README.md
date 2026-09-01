@@ -25,3 +25,6 @@ Note: Figma is a whole world by itself! I just searched up "sitemap template" an
 Haven't logged on in a while because I was very busy with other things. Today, I've started working again on the backbone. I will initiate a to-do list of cool ideas which need implementing and will keep it in a section named "Task List" here in this readme.
 Wow. Even the simples styling and organization of a page take a lot of time.
 
+### 1/9/2026
+Played a little with CSS today. I understand now why they make so many nested *divs*: because it makes your life much easier, and you have much more control. The *span* is basically equivalent to div. Most important thing I learned today (till now at least) is that the *display:flex* is the most powerful because you can control so much. It is much better than block or inline or other alternatives. 
+Also, not because you know CSS you know how to design. It is like saying you can paint because you have the colors and the brush :)) 
