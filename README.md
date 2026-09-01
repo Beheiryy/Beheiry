@@ -28,4 +28,6 @@ Wow. Even the simples styling and organization of a page take a lot of time.
 
 ### 1/9/2026
 Played a little with CSS today. I understand now why they make so many nested *divs*: because it makes your life much easier, and you have much more control. The *span* is basically equivalent to div. Most important thing I learned today (till now at least) is that the *display:flex* is the most powerful because you can control so much. It is much better than block or inline or other alternatives. 
-Also, not because you know CSS you know how to design. It is like saying you can paint because you have the colors and the brush :)) 
+Also, not because you know CSS you know how to design. It is like saying you can paint because you have the colors and the brush :))  
+
+Visual design for brand or logo can change how it's perceived therefore it's very important. Key is: know what message you want to convey, then base your visual layout on it. I want the main page and content to look professional and top-notch, that's why I chose the browny colors. The high-tech is just black and golden with cool font because, well, its supposed to be high-tech.
