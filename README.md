@@ -14,6 +14,7 @@ Critical to achieving anything, however, is mastering Software Engineering. I do
 - [ ] Create components for use and re-use, and then create some place where you can easily add them. Specifically, do that for:
   - [ ] Experiences section in WHO page
   - [ ] Knowledge Graph in WHO page 
+  - [ ] Standardize the colors used throughout by defining them in a safe place and re-using them.
 
 ## Log
 ### 28/8/2026
