@@ -18,6 +18,7 @@ Critical to achieving anything, however, is mastering Software Engineering. I do
   - [ ] Make sure that the overall visual hiearchy is ok.
   - [ ] Implement the backbone of the whole website just like you did with home page.
   - [ ] Create a standard footer (which may or may not be used on all pages).
+  - [ ] Check why resources (images fonts etc) do not show on vercel hosting.
 
 ## Log
 ### 28/8/2026
