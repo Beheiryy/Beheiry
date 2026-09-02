@@ -1,0 +1,127 @@
+
+@font-face{
+    font-family: 'Cristik';
+    src: url('../fonts/Cristik.otf') format('opentype');
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face{
+    font-family:'Cinzel';
+    src: url('../fonts/Cinzel-VariableFont_wght.ttf') format('TrueType');
+    font-weight:normal;
+    font-style:normal;
+}
+
+:root{
+    --primary-golden: #fff8c5;
+    --primary-brown: #764701;
+    --primary-white: #ffffff;
+    --primary-darkblue: #001971;
+    --primary-black: #000000;
+
+    --primary-font:Times New Roman, Georgia;
+    --special-font:'Cinzel', Garamond;
+    --cool-font:'Cristik', Times New Roman;
+
+    --default-border: 2px solid var(--primary-brown);
+}
+
+body {
+    background-color:var(--primary-golden);
+    font-family: var(--primary-font);
+    color: var(--primary-black);
+}
+
+quote {
+    font-family: var(--special-font);
+    display: flex;
+    padding: 5px 10% 5px 10%; /*order: top, right, bottom, left*/
+}
+
+a {
+    font-family: var(--special-font);
+    text-decoration: none; /*remove the underline*/
+    color: var(--primary-black);   
+}
+
+.default_navbar{
+    /* color: brown; note how it does not apply because technically the links are inside the li not inside the ul*/ 
+    display: flex;
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    /*justify-content: center;*/
+    gap: 2%;
+    color: var(--primary-black);
+}
+
+.blacklink{
+    color:black;
+}
+
+.experience{
+    display:grid; /*This will help have them vertically oriented*/
+    /* border: var(--border-width) dashed var(--border-color); */
+}
+
+.experience_header{
+    display:flex;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    gap: 2%;
+    max-height: 200px;
+    max-width: 100%;
+    border: var(--default-border);
+}
+
+.experience_photo_frame{
+    max-width: 100%;
+    max-height:100%;
+}
+
+.experience_photo_frame img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.experience_header_text_block{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    max-height:100%;
+}
+
+.experience_position_title{
+    display: flex;
+    font-size: 1.5rem; /*rem is root em, which is the standard font size. so if standard is 8, this font will be 16*/
+    max-height: 25%;
+}
+
+.experience_company_and_worktime{
+    display:flex;
+    gap: 10%;
+    max-height: 20%;
+}
+
+.experience_date{
+    display:flex;
+    max-height: 20%;
+}
+
+.experience_location_and_workstyle{
+    display:flex;
+    gap:10%;   
+    max-height: 20%;
+}
+
+.experience_description{
+    display:flex;
+    border: var(--default-border);
+}
+
+.connection{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}

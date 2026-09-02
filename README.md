@@ -12,9 +12,12 @@ Critical to achieving anything, however, is mastering Software Engineering. I do
 ## Task List
 - [ ] Create a template engine (just like Django, because something like a navbar is used time and again)
 - [ ] Create components for use and re-use, and then create some place where you can easily add them. Specifically, do that for:
-  - [ ] Experiences section in WHO page
-  - [ ] Knowledge Graph in WHO page 
-  - [ ] Standardize the colors used throughout by defining them in a safe place and re-using them.
+  - [ ] Experiences section in WHO page --> needs standardization and design which is not based on random gaps and sizes but relative ones
+  - [ ] Knowledge Graph in WHO page  --> complex but you can implement a basic version with easily add-able nodes
+  - [x] Standardize the colors used throughout by defining them in a safe place and re-using them.
+  - [ ] Make sure that the overall visual hiearchy is ok.
+  - [ ] Implement the backbone of the whole website just like you did with home page.
+  - [ ] Create a standard footer (which may or may not be used on all pages).
 
 ## Log
 ### 28/8/2026
@@ -31,3 +34,7 @@ Played a little with CSS today. I understand now why they make so many nested *d
 Also, not because you know CSS you know how to design. It is like saying you can paint because you have the colors and the brush :))  
 
 Visual design for brand or logo can change how it's perceived therefore it's very important. Key is: know what message you want to convey, then base your visual layout on it. I want the main page and content to look professional and top-notch, that's why I chose the browny colors. The high-tech is just black and golden with cool font because, well, its supposed to be high-tech.
+
+## 2/9/2026
+Did alot of playing with CSS today. Figured out why poeple need structure and why somehting like Tailwind is really powerful. Re-iterating that knowing CSS is different from knowing how to style and make visually appealing websites. Installed fonts for the first time ever today and added some content to main page. Implementing the knowledge graph will not be simple. Getting the overall style to become good will also need some work. Putting the right icons in the right places and creating re-usable designs is critical.  
+Of course, I need to code and move faster than this. But every time I work on this project I learn alot. 

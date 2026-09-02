@@ -3,84 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <style>
-            body {background-color:lightgoldenrodyellow}
-            quote {
-                font-family: monospace;
-                display: flex;
-                padding: 5px 10% 5px 10%; /*order: top, right, bottom, left*/
-            }
-
-            .default_navbar{
-                /* color: brown; note how it does not apply because technically the links are inside the li not inside the ul*/ 
-                display: flex;
-                list-style-type:none;
-                margin: 0;
-                padding: 0;
-                /*justify-content: center;*/
-                gap: 2%;
-            }
-
-            .experience{
-                display:grid; /*This will help have them vertically oriented*/
-                border: 1px dashed darksalmon;
-            }
-
-            .experience_header{
-                display:flex;
-                padding-top: 5px;
-                padding-bottom: 5px;
-                gap: 2%;
-                max-height: 200px;
-                max-width: 100%;
-                border: 2px solid orange;
-            }
-
-            .experience_photo_frame{
-                max-width: 100%;
-                max-height:100%;
-            }
-
-            .experience_photo_frame img{
-                max-width: 100%;
-                max-height: 100%;
-            }
-
-            .experience_header_text_block{
-                display: flex;
-                flex-direction: column;
-                gap: 1px;
-                max-height:100%;
-            }
-
-            .experience_position_title{
-                display: flex;
-                font-size: 1.5rem; /*rem is root em, which is the standard font size. so if standard is 8, this font will be 16*/
-                max-height: 25%;
-            }
-
-            .experience_company_and_worktime{
-                display:flex;
-                gap: 10%;
-                max-height: 20%;
-            }
-
-            .experience_date{
-                display:flex;
-                max-height: 20%;
-            }
-
-            .experience_location_and_workstyle{
-                display:flex;
-                gap:10%;   
-                max-height: 20%;
-            }
-
-            .experience_description{
-                display:flex;
-                border: 5px solid gainsboro;
-            }
-        </style>
+        <link rel="stylesheet" href="index.css" />
         <title>Beheiry</title>
     </head>
 
@@ -128,10 +51,52 @@
                             <p>Hybrid</p>
                         </span>
                     </div>
+                    <span class="experience_description">
+                        <p>Description: got invovled in every aspect of the business, but focused on the commercials. Got clients in two forms: manufacturers and brands.</p>
+                    </span>
                 </div>
-                <span class="experience_description">
-                    <p>Description: got invovled in every aspect of the business, but focused on the commercials. Got clients in two forms: manufacturers and brands.</p>
-                </span>
+            </div>
+
+            <div class="experience">
+                <div class = "experience_header">
+                    <div class = "experience_photo_frame">
+                        <img src="../images/ES_logo.png" alt="">
+                    </div>
+                    <div class = "experience_header_text_block">
+                        <span class="experience_position_title">
+                            <p>Chief Executive Officer</p>
+                        </span>
+                        <span class="experience_company_and_worktime">
+                            <p>Entrepreneurs' Society</p>
+                            <p>Full time</p>
+                        </span>
+                        <span class="experience_date">
+                            <p>Jan 2026 - Present</p>
+                        </span>
+                        <span class="experience_location_and_workstyle">
+                            <p>Egypt</p>
+                            <p>On-site</p>
+                        </span>
+                    </div>
+                    <span class="experience_description">
+                        <p>Description: revived the club, then led it to become the leading entrepreneurship & startups in AUC and Egypt. Reputation is now at the max it's ever been.</p>
+                    </span>
+                </div>
+            </div>
+
+        </div>
+
+        <div>
+            <h2>Knowledge Graph</h2>
+            <p>To be implemented (because I still do not know how to).</p>
+        </div>
+
+        <div>
+            <h2>Connect with Beheiry</h2>
+            <div class ="connection">
+                <span class="connection_email"><a href="">omarbeheiry@aucegypt.edu</a></span>
+                <span class="connection_linkedin"><a href="">Omar Linkedin</a></span>
+                <span class="connection_github"><a href="">Omar Github</a></span>
             </div>
         </div>
 
