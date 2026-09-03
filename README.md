@@ -12,13 +12,13 @@ Critical to achieving anything, however, is mastering Software Engineering. I do
 ## Task List
 - [ ] Create a template engine (just like Django, because something like a navbar is used time and again)
 - [ ] Create components for use and re-use, and then create some place where you can easily add them. Specifically, do that for:
-  - [ ] Experiences section in WHO page --> needs standardization and design which is not based on random gaps and sizes but relative ones
+  - [x] Experiences section in WHO page --> needs standardization and design which is not based on random gaps and sizes but relative ones
   - [ ] Knowledge Graph in WHO page  --> complex but you can implement a basic version with easily add-able nodes
   - [x] Standardize the colors used throughout by defining them in a safe place and re-using them.
   - [ ] Make sure that the overall visual hiearchy is ok.
   - [ ] Implement the backbone of the whole website just like you did with home page.
   - [ ] Create a standard footer (which may or may not be used on all pages).
-  - [ ] Check why resources (images fonts etc) do not show on vercel hosting.
+  - [x] Check why resources (images fonts etc) do not show on vercel hosting.
 
 ## Log
 ### 28/8/2026
