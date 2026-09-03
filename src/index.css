@@ -1,14 +1,14 @@
 
 @font-face{
     font-family: 'Cristik';
-    src: url('fonts/Cristik.otf') format('opentype');
+    src: url('/fonts/Cristik.otf') format('opentype');
     font-weight:normal;
     font-style:normal;
 }
 
 @font-face{
     font-family:'Cinzel';
-    src: url('fonts/Cinzel-VariableFont_wght.ttf') format('TrueType');
+    src: url('/fonts/Cinzel-VariableFont_wght.ttf') format('TrueType');
     font-weight:normal;
     font-style:normal;
 }
