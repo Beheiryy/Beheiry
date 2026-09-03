@@ -29,6 +29,7 @@ Critical to achieving anything, however, is mastering Software Engineering. I do
   - [ ] Within the home page, there should be introductions to all the other pages. Now that I think about it, every page should have its own style and life. This will make your project more interesting anyway
   - [ ] Everything should have animations as they appear, including photos, text, and videos. Nothing should just appear. 
   - [ ] Make good use of margins and gaps, and make them consistent.
+  - [ ] Enrich your webpage with photos and videos.
 
 ## Log
 ### 28/8/2026

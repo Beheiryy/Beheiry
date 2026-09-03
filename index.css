@@ -14,11 +14,11 @@
 }
 
 :root{
-    --primary-golden: #f7f7f7;
-    --primary-brown: #764701;
-    --primary-white: #ffffff;
+    --primary-golden: #c5a880;
+    --primary-brown: #532e1c;
+    --primary-white: #e6e6e6;
     --primary-darkblue: #001971;
-    --primary-black: #000000;
+    --primary-black: #0f0f0f;
 
     --primary-font:Times New Roman, Georgia;
     --special-font:'Cinzel', Garamond;
@@ -30,7 +30,8 @@
 body {
     background-color:var(--primary-golden);
     font-family: var(--primary-font);
-    color: var(--primary-black);
+    font-weight: 600;
+    color: var(--primary-brown);
     margin: 0;
     padding: 0;
 }
