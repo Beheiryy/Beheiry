@@ -6,7 +6,7 @@
       "type": "node",
       "request": "launch",
       "name": "Launch website script",
-      "program": "${workspaceFolder}/src/website/index.js"
+      "program": "${workspaceFolder}/index.js"
     }
   ]
 }
