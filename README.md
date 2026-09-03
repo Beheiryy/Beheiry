@@ -19,6 +19,16 @@ Critical to achieving anything, however, is mastering Software Engineering. I do
   - [ ] Implement the backbone of the whole website just like you did with home page.
   - [ ] Create a standard footer (which may or may not be used on all pages).
   - [x] Check why resources (images fonts etc) do not show on vercel hosting.
+- [ ] Next: hunt down the good look. Interactivity, overall look, something interesting.
+  - [ ] Add to the navbar the logo on the left, which is also clickable.
+  - [ ] Make the main menu in the middle.
+  - [ ] Introduce interactivity so that when someone makes the screen smaller it doesn't break.
+  - [ ] Make the initial page always a very high quality photo that's interesting.
+  - [ ] make the navbar consistent with scrolling
+  - [ ] Make the text bigger. Every part of the page should be big enough. Give the viewer the full experience!
+  - [ ] Within the home page, there should be introductions to all the other pages. Now that I think about it, every page should have its own style and life. This will make your project more interesting anyway
+  - [ ] Everything should have animations as they appear, including photos, text, and videos. Nothing should just appear. 
+  - [ ] Make good use of margins and gaps, and make them consistent.
 
 ## Log
 ### 28/8/2026
