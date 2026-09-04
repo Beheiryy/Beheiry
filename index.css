@@ -13,6 +13,14 @@
     font-style:normal;
 }
 
+@font-face{
+    font-family:'Copperplate Gothic';
+    src: url('src/fonts/Copperplate-Gothic-Std-29-AB.ttf') format('TrueType');
+    font-weight:normal;
+    font-style:normal;
+}
+
+
 :root{
     --primary-golden: #c5a880;
     --primary-brown: #532e1c;
@@ -23,6 +31,7 @@
     --primary-font:Times New Roman, Georgia;
     --special-font:'Cinzel', Garamond;
     --cool-font:'Cristik', Times New Roman;
+    --logo-font:'Copperplate Gothic', Garamond;
 
     --default-border: 2px solid var(--primary-brown);
 }
@@ -48,19 +57,37 @@ a {
     color: var(--primary-black);   
 }
 
-.default_navbar{
+.navbar{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    gap: 10%;
+    margin-left: 2vw;
+    align-items: center;
+    color: var(--primary-black);
+}
+
+.text_logo{
+    font-family: var(--special-font);
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+}
+
+.default_navbar_list{
     /* color: brown; note how it does not apply because technically the links are inside the li not inside the ul*/ 
     display: flex;
+    flex-direction: row;
     list-style-type:none;
-    margin: 0;
-    padding: 0;
-    /*justify-content: center;*/
-    gap: 2%;
-    color: var(--primary-black);
+    gap: 5vw;
 }
 
 .blacklink{
     color:black;
+}
+
+.section{
+    width: 100vw;
+    height: 100vh;
 }
 
 .experience{
