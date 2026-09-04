@@ -20,8 +20,8 @@ Critical to achieving anything, however, is mastering Software Engineering. I do
   - [ ] Create a standard footer (which may or may not be used on all pages).
   - [x] Check why resources (images fonts etc) do not show on vercel hosting.
 - [ ] Next: hunt down the good look. Interactivity, overall look, something interesting.
-  - [ ] Add to the navbar the logo on the left, which is also clickable.
-  - [ ] Make the main menu in the middle.
+  - [x] Add to the navbar the logo on the left, which is also clickable.
+  - [x] Make the main menu in the middle.
   - [ ] Introduce interactivity so that when someone makes the screen smaller it doesn't break.
   - [ ] Make the initial page always a very high quality photo that's interesting.
   - [ ] make the navbar consistent with scrolling
