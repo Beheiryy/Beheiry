@@ -22,27 +22,34 @@
 
 
 :root{
-    --primary-golden: #c5a880;
-    --primary-brown: #532e1c;
-    --primary-white: #e6e6e6;
-    --primary-darkblue: #001971;
-    --primary-black: #0f0f0f;
+    /* --primary-golden: #c5a880; */
+    --primary-offwhite: #fffcf2;
+    /* --primary-brown: #532e1c; */
+    --primary-dark: #252422;
+
+    /* --primary-white: #e6e6e6; */
+    --primary-gray: #ccc5b9;
+
+    --primary-orange: #eb5e28;
+    
+    /* --primary-black: #0f0f0f; */
+    --primary-darkgray: #403d39;
 
     --primary-font:Times New Roman, Georgia;
     --special-font:'Cinzel', Garamond;
     --cool-font:'Cristik', Times New Roman;
     --logo-font:'Copperplate Gothic', Garamond;
 
-    --default-border: 2px solid var(--primary-brown);
+    --default-border: 2px solid var(--primary-dark);
 }
 
 body {
-    background-color:var(--primary-golden);
+    background-color:var(--primary-offwhite);
     font-family: var(--primary-font);
     display: flex;
     flex-direction: column;
     font-weight: 600;
-    color: var(--primary-brown);
+    color: var(--primary-dark);
     margin: 0;
     padding: 0;
     gap:0;
@@ -60,7 +67,7 @@ quote {
 a {
     font-family: var(--special-font);
     text-decoration: none; /*remove the underline*/
-    color: var(--primary-black);   
+    color: var(--primary-darkgray);   
 }
 
 .section{
@@ -86,7 +93,7 @@ a {
     gap: 10%;
     margin-left: 10%;
     align-items: center;
-    color: var(--primary-black);
+    color: var(--primary-darkgray);
 }
 
 .text_logo{
@@ -110,9 +117,12 @@ a {
 .title_text_image_block{
     display:flex;
     flex-direction:row;
-    width: 100%;
+    width: 80%;
     height: 100%;
-    background-image: url('src/images/egypt_pyramids_and_camels.jpg');
+    padding-left: 10%;
+    padding-right: 10%;
+    /* background-image: url('src/images/egypt_pyramids_and_camels.jpg'); */
+    background-color:var(--primary-offwhite);
     background-size: cover;
     background-position:center;
 }
@@ -142,14 +152,27 @@ a {
 }
 
 .image_block img{
-    max-width: 50%;
-    max-height: 100%;
+    max-width: 100%;
+    max-height: 97%;
+    object-fit:cover;
+    filter:grayscale(0%);
 
     border-color: transparent;
     border-width: 5px;
     border-style: solid;
     border-radius: 25px;
 }
+
+/* .image_block::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, var(--primary-gray), transparent, transparent, transparent);
+    pointer-events: none;
+} */
 
 .image_block .image-row{
     display: flex;
@@ -159,13 +182,20 @@ a {
     justify-content: space-between;
 }
 
+.experience_section{
+    width: 100%;
+    height: 100vh;
+    gap: 0;
+    margin:0;
+}
+
 .experience{
     display:flexbox; /*This will help have them vertically oriented*/
     flex-direction: column;
     /* border: var(--border-width) dashed var(--border-color); */
-    background-image: url('src/images/egypt_grandiose_mosques.jpg');
+    /* background-image: url('src/images/egypt_grandiose_mosques.jpg');
     background-size: cover;
-    background-position:center;
+    background-position:center; */
 }
 
 .experience_outer_header{
