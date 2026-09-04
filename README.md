@@ -51,3 +51,6 @@ Visual design for brand or logo can change how it's perceived therefore it's ver
 ## 2/9/2026
 Did alot of playing with CSS today. Figured out why poeple need structure and why somehting like Tailwind is really powerful. Re-iterating that knowing CSS is different from knowing how to style and make visually appealing websites. Installed fonts for the first time ever today and added some content to main page. Implementing the knowledge graph will not be simple. Getting the overall style to become good will also need some work. Putting the right icons in the right places and creating re-usable designs is critical.  
 Of course, I need to code and move faster than this. But every time I work on this project I learn alot. 
+
+## 4/9/2026
+You either know style or you don't. If you don't, experiment until you reach something that is not bad, and stick with the simple. You can never go wrong with the simple, with the complex you can either go very right or very wrong.
