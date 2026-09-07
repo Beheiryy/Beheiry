@@ -34,6 +34,7 @@ Critical to achieving anything, however, is mastering Software Engineering. I do
 - [ ] Perform SEO optimization by learning about all the different meta tags and deploying every useful one.
 - [ ] Learn about pixel vs vector graphics (because this will be useful in graph and generally).
 - [ ] Continue advanced html and css course on youtube.
+- [ ] Add sitemap.xml, robots.txt, llms.txt
 
 ## Log
 ### 28/8/2026
