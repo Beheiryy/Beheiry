@@ -42,6 +42,8 @@
 
     --default-border: 2px solid var(--primary-dark);
 
+    --default-border-radius: 25px;
+
     --default-box-shadow: 0 10px 30px -10px rgba(0,0,0,.4); 
 }
 
@@ -202,7 +204,7 @@ h4{
     justify-content: space-between;
 } */
 
-.experience_section{
+.section--experience{
     width: 80%;
     height: 100vh;
     padding-left: 10%;
@@ -212,89 +214,58 @@ h4{
 }
 
 .experience{
-    display:flexbox; /*This will help have them vertically oriented*/
-    flex-direction: column;
-    /* border: var(--border-width) dashed var(--border-color); */
-    /* background-image: url('src/images/egypt_grandiose_mosques.jpg');
-    background-size: cover;
-    background-position:center; */
-}
-
-.experience_outer_header{
     display:flex;
+    flex-direction: row;
     justify-content: space-around;
     border: var(--default-border);
     border-color: var(--primary-gray);
-    border-radius: 25px;
-    width: 98%;
-    box-shadow: 0 10px 30px -10px rgba(0,0,0,.4);
-}
+    border-radius: var(--default-border-radius);
+    box-shadow: var(--default-box-shadow);
 
-.experience_header{
-    display:flex;
     padding-top: 5px;
     padding-bottom: 5px;
-    gap: 2%;
+    gap: 3%;
     max-height: 30vh;
     width: 96%;
     padding-left: 2%;
     padding-right: 2%;
-    justify-content:space-between;
 }
 
-.experience_photo_frame{
+.experience__logo-frame{
     display: flex;
     flex-direction: column;
     width: 10%;
     max-height:100%;
     padding-top: 1%;
-    
 }
 
-.experience_photo_frame img{
-    max-width: 100%;
-    max-height: 100%;
-    justify-content: center;
-    align-items:center;
-}
-
-.experience_header_text_block{
+.experience__header{
     display: flex;
     flex-direction: column;
     gap: 1px;
-    max-height:100%;
+    /* max-height:100%; */
     width: 40%;
 }
 
-.experience_position_title{
+.experience__header__row{
     display: flex;
-    font-size: 1.5rem; /*rem is root em, which is the standard font size. so if standard is 8, this font will be 16*/
+    flex-direction:row;
+    gap: 3%;
+}
+
+.experience__header__row--title{
+    display: flex;
     max-height: 25%;
+    align-items: bottom;
 }
 
-.experience_company_and_worktime{
-    display:flex;
-    gap: 10%;
-    max-height: 20%;
-}
-
-.experience_date{
-    display:flex;
-    max-height: 20%;
-}
-
-.experience_location_and_workstyle{
-    display:flex;
-    gap:10%;   
-    max-height: 20%;
-}
-
-.experience_description{
+.experience__description{
     display:flex;
     flex-direction: column;
-    /* border: var(--default-border); */
-    margin-top: 1%; /*This percentage is taken from the parent's WIDTH not height. This is done by CSS to prevent infinite loops.*/
+    gap: 1px;
+    margin-top: 1%; /*This percentage is taken from the parent's WIDTH not height. This is done by CSS to prevent infinite loops. */
     width: 50%;
+    overflow:hidden;
 }
 
 .knowledge_section{
