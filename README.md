@@ -30,11 +30,12 @@ Critical to achieving anything, however, is mastering Software Engineering. I do
   - [ ] Everything should have animations as they appear, including photos, text, and videos. Nothing should just appear. 
   - [ ] Make good use of margins and gaps, and make them consistent.
   - [ ] Enrich your webpage with photos and videos.
-- [ ] Establish a naming-convention and add it to the Readme and follow it throughout. Think it thoroughly. Establish rules for html and css hierarchies insted of randomness.
+- [x] Establish a naming-convention and add it to the Readme and follow it throughout. Think it thoroughly. Establish rules for html and css hierarchies insted of randomness.
 - [ ] Perform SEO optimization by learning about all the different meta tags and deploying every useful one.
 - [ ] Learn about pixel vs vector graphics (because this will be useful in graph and generally).
 - [ ] Continue advanced html and css course on youtube.
 - [ ] Add sitemap.xml, robots.txt, llms.txt
+- [ ] Apply BEM naming to your website.
 
 ## Log
 ### 28/8/2026
