@@ -275,23 +275,17 @@ h4{
     margin:0;
 }
 
-.knowledge_content{
+.knowledge__content{
     padding-left: 10%;
     padding-right: 10%;
 }
 
-.connect_section{
-    width: 100%;
+.section--connect{
     height: 30vh;
-    gap: 0;
-    margin:0;
-   
     position: relative;
-    /* background-color: #403d39;
-    color:#fffcf2; */
 }
 
-.connect_section::before{
+.section--connect::before{
     content:"";
     position: absolute;
     top: 0; left:0; right:0; bottom:0;
@@ -305,39 +299,35 @@ h4{
     z-index: -1;
 }
 
-.connect_content{
+.connect{
     padding-left: 10%;
     padding-right: 10%;
 }
 
-.connection{
+.connect__row{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
 }
 
-.connection_icon_and_text{
+.connect__row__item{
     display: flex;
     flex-direction: row;
     align-items:center;
     width: 30%;
 }
 
-.connection_icon_and_text a{
+.connect__row__item a{
     display: flex;
     flex-direction: row;
     align-items:center;
     gap: 5%;
 }
 
-.connection_icon_and_text img{
+.connect__row__item img{
     width: 10%;
 }
-/* 
-.connection_icon_and_text a{
-        color:#fffcf2;
-} */
 
 
 .footer{
