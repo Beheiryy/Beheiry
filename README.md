@@ -33,9 +33,9 @@ Critical to achieving anything, however, is mastering Software Engineering. I do
 - [x] Establish a naming-convention and add it to the Readme and follow it throughout. Think it thoroughly. Establish rules for html and css hierarchies insted of randomness.
 - [ ] Perform SEO optimization by learning about all the different meta tags and deploying every useful one.
 - [ ] Learn about pixel vs vector graphics (because this will be useful in graph and generally).
-- [ ] Continue advanced html and css course on youtube.
+- [x] Continue advanced html and css course on youtube.
 - [ ] Add sitemap.xml, robots.txt, llms.txt
-- [ ] Apply BEM naming to your website.
+- [x] Apply BEM naming to your website.
 - [ ] Have a scrollbar throughout your page (not actually scroll bar, but cool looking thing on the right or left).
 - [ ] Have a scrollbar within experiences and between them.
 - [ ] Switch logos to SVG.

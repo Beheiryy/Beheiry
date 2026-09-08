@@ -20,6 +20,16 @@
     font-style:normal;
 }
 
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
 /*Variables*/
 :root{
     /* --primary-golden: #c5a880; */
@@ -114,6 +124,8 @@ h4{
     height: 100vh;
     gap: 0;
     margin:0;
+
+    animation: fadeIn 1s ease;
 }
 
 /*The Navbar*/
@@ -328,6 +340,11 @@ h4{
 .connect__row__item img{
     width: 10%;
 }
+
+.connect__row__item svg{
+    width: 10%;
+}
+
 
 
 .footer{
