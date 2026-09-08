@@ -25,7 +25,7 @@ Critical to achieving anything, however, is mastering Software Engineering. I do
   - [ ] Introduce interactivity so that when someone makes the screen smaller it doesn't break.
   - [ ] Make the initial page always a very high quality photo that's interesting.
   - [ ] make the navbar consistent with scrolling
-  - [ ] Make the text bigger. Every part of the page should be big enough. Give the viewer the full experience!
+  - [x] Make the text bigger. Every part of the page should be big enough. Give the viewer the full experience!
   - [ ] Within the home page, there should be introductions to all the other pages. Now that I think about it, every page should have its own style and life. This will make your project more interesting anyway
   - [ ] Everything should have animations as they appear, including photos, text, and videos. Nothing should just appear. 
   - [ ] Make good use of margins and gaps, and make them consistent.
@@ -36,6 +36,7 @@ Critical to achieving anything, however, is mastering Software Engineering. I do
 - [ ] Continue advanced html and css course on youtube.
 - [ ] Add sitemap.xml, robots.txt, llms.txt
 - [ ] Apply BEM naming to your website.
+- [ ] Have a scrollbar throughout your page (not actually scroll bar, but cool looking thing on the right or left).
 
 ## Log
 ### 28/8/2026
