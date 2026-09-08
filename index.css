@@ -1,4 +1,4 @@
-
+/*Imports*/
 @font-face{
     font-family: 'Cristik';
     src: url('src/fonts/Cristik.otf') format('opentype');
@@ -20,7 +20,7 @@
     font-style:normal;
 }
 
-
+/*Variables*/
 :root{
     /* --primary-golden: #c5a880; */
     --primary-offwhite: #fffcf2;
@@ -41,8 +41,20 @@
     --logo-font:'Copperplate Gothic', Garamond;
 
     --default-border: 2px solid var(--primary-dark);
+
+    --default-box-shadow: 0 10px 30px -10px rgba(0,0,0,.4); 
 }
 
+/*Styling*/
+html{
+    font-size: 16px; /*This is the default value anyway, but just to have it seen*/
+    /*The line-height property also has a default value, but I'm unsure what it is.*/
+}
+
+/*
+Note on all displays: flex is the best option.
+It can be used as a column or row, and it is so controllable.
+*/
 body {
     background-color:var(--primary-offwhite);
     font-family: var(--primary-font);
@@ -70,6 +82,10 @@ a {
     color: var(--primary-darkgray);   
 }
 
+a:hover{
+    color: var(--primary-orange);
+}
+
 h1{
     font-size: 2.5rem;
 }
@@ -93,8 +109,7 @@ h4{
     margin:0;
 }
 
-.who_section{
-    width:100%;
+.section__who{
     height: 90vh;
 }
 
@@ -177,6 +192,7 @@ h4{
     border-width: 5px;
     border-style: solid;
     border-radius: 25px;
+
 }
 
 /* .image_block::after{
@@ -223,6 +239,7 @@ h4{
     border-color: var(--primary-gray);
     border-radius: 25px;
     width: 98%;
+    box-shadow: 0 10px 30px -10px rgba(0,0,0,.4);
 }
 
 .experience_header{
