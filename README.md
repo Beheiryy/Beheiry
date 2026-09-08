@@ -37,6 +37,7 @@ Critical to achieving anything, however, is mastering Software Engineering. I do
 - [ ] Add sitemap.xml, robots.txt, llms.txt
 - [ ] Apply BEM naming to your website.
 - [ ] Have a scrollbar throughout your page (not actually scroll bar, but cool looking thing on the right or left).
+- [ ] Have a scrollbar within experiences and between them.
 - [ ] Switch logos to SVG.
 
 ## Log
