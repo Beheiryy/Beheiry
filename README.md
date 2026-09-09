@@ -15,9 +15,9 @@ Critical to achieving anything, however, is mastering Software Engineering. I do
   - [x] Experiences section in WHO page --> needs standardization and design which is not based on random gaps and sizes but relative ones
   - [ ] Knowledge Graph in WHO page  --> complex but you can implement a basic version with easily add-able nodes
   - [x] Standardize the colors used throughout by defining them in a safe place and re-using them.
-  - [ ] Make sure that the overall visual hiearchy is ok.
+  - [x] Make sure that the overall visual hiearchy is ok.
   - [ ] Implement the backbone of the whole website just like you did with home page.
-  - [ ] Create a standard footer (which may or may not be used on all pages).
+  - [x] Create a standard footer (which may or may not be used on all pages).
   - [x] Check why resources (images fonts etc) do not show on vercel hosting.
 - [ ] Next: hunt down the good look. Interactivity, overall look, something interesting.
   - [x] Add to the navbar the logo on the left, which is also clickable.

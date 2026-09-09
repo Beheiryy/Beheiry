@@ -34,6 +34,7 @@
 :root{
     /* --primary-golden: #c5a880; */
     --primary-offwhite: #fffcf2;
+    --primary-offwhite-transparent: #fffcf2cc;
     /* --primary-brown: #532e1c; */
     --primary-dark: #252422;
 
@@ -125,7 +126,7 @@ h4{
     gap: 0;
     margin:0;
 
-    animation: fadeIn 1s ease;
+    /* animation: fadeIn 1s ease; */
 }
 
 /*The Navbar*/
@@ -138,6 +139,14 @@ h4{
     margin-left: 10%;
     align-items: center;
     color: var(--primary-darkgray);
+
+    /*Show the navbar even when scrolling*/
+    position: sticky;
+    top: 0;
+    left: 0;
+
+    /* background-color: var(--primary-offwhite); */
+    background-color: var(--primary-offwhite-transparent);
 }
 
 .navbar__logo{
@@ -223,6 +232,8 @@ h4{
     padding-right: 10%;
     gap: 0;
     margin:0;
+
+    overflow:scroll;
 }
 
 .experience{
