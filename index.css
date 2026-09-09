@@ -56,6 +56,8 @@
     --default-border-radius: 25px;
 
     --default-box-shadow: 0 10px 30px -10px rgba(0,0,0,.4); 
+
+    --navbar-height: max(100px, 10vh, 10%);
 }
 
 /*Styling*/
@@ -133,12 +135,19 @@ h4{
     /* animation: fadeIn 1s ease; */
 }
 
+.section__title{
+    position: sticky;
+    top:var(--navbar-height);
+    background-color: var(--primary-offwhite-transparent)
+}
+
 /*The Navbar*/
 .navbar{
     /*the height is automatically of any height that is needed*/
     display: flex;
     flex-direction: row;
     width: 90%;
+    height: var(--navbar-height);
     gap: 10%;
     margin-left: 10%;
     align-items: center;
