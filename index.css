@@ -85,6 +85,10 @@ body {
     width: 100%;
 }
 
+body::-webkit-scrollbar{
+    display: none;
+}
+
 quote {
     font-family: var(--special-font);
     display: flex;
@@ -234,6 +238,14 @@ h4{
     margin:0;
 
     overflow:scroll;
+}
+
+.section--experience::-webkit-scrollbar{
+    display: none;
+}
+
+.section--experience::-webkit-scrollbar-button{
+    
 }
 
 .experience{
