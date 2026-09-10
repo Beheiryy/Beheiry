@@ -32,7 +32,7 @@ Critical to achieving anything, however, is mastering Software Engineering. I do
   - [ ] Enrich your webpage with photos and videos.
 - [x] Establish a naming-convention and add it to the Readme and follow it throughout. Think it thoroughly. Establish rules for html and css hierarchies insted of randomness.
 - [ ] Perform SEO optimization by learning about all the different meta tags and deploying every useful one.
-- [ ] Learn about pixel vs vector graphics (because this will be useful in graph and generally).
+- [x] Learn about pixel vs vector graphics (because this will be useful in graph and generally).
 - [x] Continue advanced html and css course on youtube.
 - [ ] Add sitemap.xml, robots.txt, llms.txt
 - [x] Apply BEM naming to your website.
