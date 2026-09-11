@@ -58,6 +58,9 @@
     --default-box-shadow: 0 10px 30px -10px rgba(0,0,0,.4); 
 
     --navbar-height: max(100px, 10vh, 10%);
+
+    --phone-width: 764px;
+    --tablet-width: 1024px;
 }
 
 /*Styling*/
@@ -152,7 +155,7 @@ h4{
     width: 90%;
     height: var(--navbar-height);
     gap: 10%;
-    margin-left: 10%;
+    padding-left: 10%;
     align-items: center;
     color: var(--primary-darkgray);
 
@@ -163,12 +166,30 @@ h4{
 
     /* background-color: var(--primary-offwhite); */
     background-color: var(--primary-offwhite-transparent);
+
+    @media(width <= 1024px){
+        width: 55%;
+        padding-left: 40%;
+        padding-right: 5%;
+        justify-content: space-between;
+    }
+    @media(width <= 768px){
+        width: 85%;
+        padding-left: 10%;
+        padding-right: 5%;
+        justify-content: space-between;
+    }
 }
 
 .navbar__logo{
     font-family: var(--special-font);
     font-size: 1.5rem;
     letter-spacing: 3px;
+    max-height: 100%;
+
+    @media(width <= 1024px){
+        font-size:2rem;
+    }
 }
 
 .navbar__list{
@@ -177,11 +198,51 @@ h4{
     flex-direction: row;
     list-style-type:none;
     gap: 5vw;
+    
+    @media(width <= 1024px){
+        display:none;    
+    }
 }
+
+.navbar__ham-menu{
+    display: none;
+    height: 50px;
+    width: 50px;
+    /* margin-left: auto; */
+    position: relative;
+
+    @media(width <= 1024px){
+        display:flex;
+    }
+}
+
+.navbar__ham-menu__line{
+    height: 5px;
+    width: 100%;
+    background-color: var(--primary-orange);
+    border-radius: 25px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: .3s ease;
+}
+
+.navbar__ham-menu__line:nth-child(1){
+    top:25%;
+}
+
+.navbar__ham-menu__line:nth-child(3){
+    top:75%;
+}
+
 
 /*Who*/
 .section--who{
     height: 90vh;
+    @media(width <= 1024px){
+        height:auto;
+    }
 }
 
 .who{
@@ -194,6 +255,14 @@ h4{
     background-color:var(--primary-offwhite);
     background-size: cover;
     background-position:center;
+
+    @media(width <= 1024px){
+        align-items: center;
+        width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
+        flex-direction:column;
+    }
 }
 
 .who__text-block{
@@ -201,13 +270,21 @@ h4{
     flex-direction: column;
     width: 45%;
     padding-left: 5%;
+    @media(width <= 1024px){
+        width: 95%;
+    }
 }
 
 .who__image-block{
     display:flex;
     flex-direction: column;
     width: 50%;
-    max-height: 100%;
+    max-height: 85%;
+
+    @media(width <= 1024px){
+        width: 70%;
+        height: 70dvh;
+    }
 }
 
 .who__image-block__image{
@@ -219,27 +296,7 @@ h4{
     border-width: 5px;
     border-style: solid;
     border-radius: 25px;
-
 }
-
-/* .image_block::after{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(to bottom, var(--primary-gray), transparent, transparent, transparent);
-    pointer-events: none;
-} */
-
-/* .image_block .image-row{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 50%;
-    justify-content: space-between;
-} */
 
 .section--experience{
     width: 80%;
@@ -252,15 +309,19 @@ h4{
     overflow-y:scroll;
     overflow-x:hidden;
     scroll-snap-type: mandatory;
+
+    @media(width <= 1024px){
+        height: auto
+    }
 }
 
 .section--experience::-webkit-scrollbar{
     display: none;
 }
 
-.section--experience::-webkit-scrollbar-button{
+/* .section--experience::-webkit-scrollbar-button{
     
-}
+} */
 
 .experience{
     display:flex;
@@ -279,7 +340,7 @@ h4{
     padding-left: 2%;
     padding-right: 2%;
 
-    position:relative;
+    /* position:relative; */
 }
 
 /* .experience::before{
@@ -302,6 +363,11 @@ h4{
     width: 10%;
     max-height:100%;
     padding-top: 1%;
+
+    @media(width <= 1024px){
+        min-width: 20%;
+        max-width: 30%;
+    }
 }
 
 .experience__header{
@@ -310,6 +376,10 @@ h4{
     gap: 1px;
     /* max-height:100%; */
     width: 40%;
+
+    @media(width <= 1024px){
+        width: 70%;
+    }
 }
 
 .experience__header__row{
@@ -331,6 +401,10 @@ h4{
     margin-top: 1%; /*This percentage is taken from the parent's WIDTH not height. This is done by CSS to prevent infinite loops. */
     width: 50%;
     overflow:hidden;
+
+    @media(width<=1024px){
+        display:none;
+    }
 }
 
 .knowledge_section{
