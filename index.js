@@ -1,11 +1,10 @@
-const user = {
-    userName : "gg",
-    userPass : ''
-};
+const hamMenu = document.querySelector('.navbar__ham-menu');
+console.log(typeof(hamMenu));
+console.log(hamMenu);
 
-function createUser(userName, userPass){
-    console.log(`Username is ${userName} and pass is ${userPass}`)
-}
+const offScreenMenu = document.querySelector('.navbar__off-screen-menu');
 
-console.log(user);
-createUser("omar", "1222");
+hamMenu.addEventListener('click', () => {
+    hamMenu.classList.toggle('active');
+    offScreenMenu.classList.toggle('active');
+})

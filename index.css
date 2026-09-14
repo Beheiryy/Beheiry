@@ -210,6 +210,8 @@ h4{
     width: 50px;
     /* margin-left: auto; */
     position: relative;
+    transition: .3s ease;
+    z-index: 1;
 
     @media(width <= 1024px){
         display:flex;
@@ -236,6 +238,48 @@ h4{
     top:75%;
 }
 
+.navbar__ham-menu.active .navbar__ham-menu__line:nth-child(1){
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.navbar__ham-menu.active .navbar__ham-menu__line:nth-child(2){
+    opacity: 0;
+}
+
+.navbar__ham-menu.active .navbar__ham-menu__line:nth-child(3){
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.navbar__off-screen-menu{
+    background-color: var(--primary-gray);
+    height: 100vh;
+    width: 100%;
+    max-width: 450px;
+    position: fixed;
+    top:0;
+    right: -450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;
+    transition: .3s ease;
+}
+
+.navbar__off-screen-menu__list{
+    /* color: brown; note how it does not apply because technically the links are inside the li not inside the ul*/ 
+    display: flex;
+    flex-direction: column;
+    list-style-type:none;
+    gap: 5vh;
+}
+
+.navbar__off-screen-menu.active{
+    right:0;
+}
 
 /*Who*/
 .section--who{
@@ -448,6 +492,11 @@ h4{
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
+    
+    @media(width <= 1024px){
+        flex-direction: column;
+        gap: 10px;
+    }
 }
 
 .connect__row__item{
