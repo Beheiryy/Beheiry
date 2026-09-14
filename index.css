@@ -189,6 +189,7 @@ h4{
 
     @media(width <= 1024px){
         font-size:2rem;
+        transition: all 1s ease;    
     }
 }
 
@@ -200,7 +201,8 @@ h4{
     gap: 5vw;
     
     @media(width <= 1024px){
-        display:none;    
+        display:none;
+        transition: all 1s ease;    
     }
 }
 
@@ -316,6 +318,7 @@ h4{
     padding-left: 5%;
     @media(width <= 1024px){
         width: 95%;
+        transition: all 1s ease;
     }
 }
 
@@ -328,6 +331,7 @@ h4{
     @media(width <= 1024px){
         width: 70%;
         height: 70dvh;
+        transition: all 1s ease;
     }
 }
 
@@ -355,7 +359,8 @@ h4{
     scroll-snap-type: mandatory;
 
     @media(width <= 1024px){
-        height: auto
+        height: auto;
+        transition: all 1s ease;
     }
 }
 
@@ -448,6 +453,7 @@ h4{
 
     @media(width<=1024px){
         display:none;
+        transition: all 1s ease;
     }
 }
 
@@ -496,6 +502,7 @@ h4{
     @media(width <= 1024px){
         flex-direction: column;
         gap: 10px;
+        transition: all 1s ease;
     }
 }
 
