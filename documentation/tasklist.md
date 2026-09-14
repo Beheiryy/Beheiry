@@ -1,0 +1,30 @@
+## Task List
+- [ ] Create a template engine (just like Django, because something like a navbar is used time and again)
+- [ ] Create components for use and re-use, and then create some place where you can easily add them. Specifically, do that for:
+  - [x] Experiences section in WHO page --> needs standardization and design which is not based on random gaps and sizes but relative ones
+  - [ ] Knowledge Graph in WHO page  --> complex but you can implement a basic version with easily add-able nodes
+  - [x] Standardize the colors used throughout by defining them in a safe place and re-using them.
+  - [x] Make sure that the overall visual hiearchy is ok.
+  - [ ] Implement the backbone of the whole website just like you did with home page.
+  - [x] Create a standard footer (which may or may not be used on all pages).
+  - [x] Check why resources (images fonts etc) do not show on vercel hosting.
+- [ ] Next: hunt down the good look. Interactivity, overall look, something interesting.
+  - [x] Add to the navbar the logo on the left, which is also clickable.
+  - [x] Make the main menu in the middle.
+  - [ ] Introduce interactivity so that when someone makes the screen smaller it doesn't break.
+  - [ ] Make the initial page always a very high quality photo that's interesting.
+  - [ ] make the navbar consistent with scrolling
+  - [x] Make the text bigger. Every part of the page should be big enough. Give the viewer the full experience!
+  - [ ] Within the home page, there should be introductions to all the other pages. Now that I think about it, every page should have its own style and life. This will make your project more interesting anyway
+  - [ ] Everything should have animations as they appear, including photos, text, and videos. Nothing should just appear. 
+  - [ ] Make good use of margins and gaps, and make them consistent.
+  - [ ] Enrich your webpage with photos and videos.
+- [x] Establish a naming-convention and add it to the Readme and follow it throughout. Think it thoroughly. Establish rules for html and css hierarchies insted of randomness.
+- [ ] Perform SEO optimization by learning about all the different meta tags and deploying every useful one.
+- [x] Learn about pixel vs vector graphics (because this will be useful in graph and generally).
+- [x] Continue advanced html and css course on youtube.
+- [ ] Add sitemap.xml, robots.txt, llms.txt
+- [x] Apply BEM naming to your website.
+- [ ] Have a scrollbar throughout your page (not actually scroll bar, but cool looking thing on the right or left).
+- [ ] Have a scrollbar within experiences and between them.
+- [ ] Switch logos to SVG.
