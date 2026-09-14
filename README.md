@@ -9,7 +9,7 @@ Critical to achieving anything, however, is mastering Software Engineering. I do
 ![Beheiry Sitemap](src/images/Beheiry_Sitemap.png)
 
 ## Project Task List
-![Tasklist](documentation/tasklist.md)
+[Tasklist](documentation/tasklist.md)
 
 ## Project Log
-![Log](documentation/log.md)
+[Log](documentation/log.md)
