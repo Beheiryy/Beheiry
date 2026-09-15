@@ -166,6 +166,7 @@ h4{
 
     /* background-color: var(--primary-offwhite); */
     background-color: var(--primary-offwhite-transparent);
+    backdrop-filter:blur(3px);
 
     @media(width <= 1024px){
         width: 55%;
@@ -259,9 +260,9 @@ h4{
     height: 100vh;
     width: 100%;
     max-width: 450px;
-    position: fixed;
+    position: absolute;
     top:0;
-    right: -450px;
+    right: 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -269,6 +270,8 @@ h4{
     text-align: center;
     font-size: 3rem;
     transition: .3s ease;
+    
+    display: none;
 }
 
 .navbar__off-screen-menu__list{
@@ -281,6 +284,8 @@ h4{
 
 .navbar__off-screen-menu.active{
     right:0;
+    display:flex;
+    transition: 1s ease;
 }
 
 /*Who*/
