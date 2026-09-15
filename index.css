@@ -288,6 +288,23 @@ h4{
     transition: 1s ease;
 }
 
+.scrollbar{
+    position: fixed;
+    top: var(--navbar-height);
+    left: 99vw;
+    width: 5px;
+    background-color: var(--primary-dark);
+    height: 1%;
+    z-index: 9;
+    transition: height 0.1s ease-out;
+}
+
+.scrollbar__progress{
+    height: 0%;
+    width: 100%;
+    background-color: var(--primary-dark);
+}
+
 /*Who*/
 .section--who{
     height: 90vh;

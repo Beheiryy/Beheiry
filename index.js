@@ -56,3 +56,11 @@ console.log(images);
 //         }
 //     })
 // })
+
+window.addEventListener('scroll', ()=>{
+    const scrollTop = window.scrollY || document.documentElement.scrollTop;
+    const totalHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    const scrolledPercentage = totalHeight > 0 ? (scrollTop/totalHeight)*50:0;
+    console.log(scrolledPercentage);
+    document.querySelector('.scrollbar').style.height=scrolledPercentage+'%';
+})
