@@ -1,4 +1,5 @@
 ## Task List
+- [ ] Implement http requests and fetching by fake data first
 - [ ] Create user login to allow for crud operations on experiences (with authentication)
 - [ ] Connect a database to your simple web project. Find the proper database and proper connection establishement. 
 - [ ] Create a matrix multiplier under "lab", making the logic in js
