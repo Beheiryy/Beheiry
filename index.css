@@ -293,11 +293,26 @@ h4{
     top: var(--navbar-height);
     left: 99vw;
     width: 5px;
+    border-radius: 5px;
+    background-color: var(--primary-gray);
+    height: 50%;
+    z-index: 3;
+    transition: 0.1s ease-out;
+}
+
+.scrollbar__progress{
+    position: fixed;
+    top: var(--navbar-height);
+    left: 99vw;
+    width: 5px;
     background-color: var(--primary-dark);
-    height: 1%;
+    height: 0;
     z-index: 9;
     transition: height 0.1s ease-out;
+    justify-content: center;
+    border-radius:5px;
 }
+
 
 /*Who*/
 .section--who{

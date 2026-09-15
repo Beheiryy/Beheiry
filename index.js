@@ -62,5 +62,5 @@ window.addEventListener('scroll', ()=>{
     const totalHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
     const scrolledPercentage = totalHeight > 0 ? (scrollTop/totalHeight)*50:0;
     console.log(scrolledPercentage);
-    document.querySelector('.scrollbar').style.height=scrolledPercentage+'%';
+    document.querySelector('.scrollbar__progress').style.height=scrolledPercentage+'%';
 })
