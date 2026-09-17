@@ -1,4 +1,5 @@
 ## Task List
+- [ ] Add a feature to write an experience (in the search bar under knowledge graph) that then shows relevant skills (to the experience, if present).
 - [ ] Implement http requests and fetching by fake data first
 - [ ] Create user login to allow for crud operations on experiences (with authentication)
 - [ ] Connect a database to your simple web project. Find the proper database and proper connection establishement. 

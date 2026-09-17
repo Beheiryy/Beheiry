@@ -290,7 +290,7 @@ h4{
 
 .scrollbar{
     position: fixed;
-    top: var(--navbar-height);
+    top: calc(var(--navbar-height) + 5vh);
     left: 99vw;
     width: 5px;
     border-radius: 5px;
@@ -302,7 +302,7 @@ h4{
 
 .scrollbar__progress{
     position: fixed;
-    top: var(--navbar-height);
+    top: calc(var(--navbar-height) + 5vh);
     left: 99vw;
     width: 5px;
     background-color: var(--primary-dark);
