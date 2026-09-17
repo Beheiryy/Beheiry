@@ -1,3 +1,5 @@
+
+
 const hamMenu = document.querySelector('.navbar__ham-menu');
 console.log(typeof(hamMenu));
 console.log(hamMenu);
@@ -63,4 +65,22 @@ window.addEventListener('scroll', ()=>{
     const scrolledPercentage = totalHeight > 0 ? (scrollTop/totalHeight)*50:0;
     console.log(scrolledPercentage);
     document.querySelector('.scrollbar__progress').style.height=scrolledPercentage+'%';
+})
+
+async function getExperienceData(){
+    try{
+        const response = await fetch('src/data/experiences.json');
+        const data = await response.json();
+        console.log(response);
+        console.log("linebreak");
+        console.log(data);
+        return data;
+    }
+    catch(error){
+        console.error("Failed to fetch data: ", error)
+    }
+}
+
+window.addEventListener('load', ()=>{
+    getExperienceData();
 })
