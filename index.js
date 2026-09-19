@@ -1,4 +1,4 @@
-
+import {getExperiences} from '/src/backend/experiences.js';
 
 const hamMenu = document.querySelector('.navbar__ham-menu');
 console.log(typeof(hamMenu));
@@ -67,20 +67,26 @@ window.addEventListener('scroll', ()=>{
     document.querySelector('.scrollbar__progress').style.height=scrolledPercentage+'%';
 })
 
-async function getExperienceData(){
-    try{
-        const response = await fetch('src/data/experiences.json');
-        const data = await response.json();
-        console.log(response);
-        console.log("linebreak");
-        console.log(data);
-        return data;
-    }
-    catch(error){
-        console.error("Failed to fetch data: ", error)
-    }
-}
+// getExperiences('hi');
 
-window.addEventListener('load', ()=>{
-    getExperienceData();
+// async function getExperienceData(){
+//     try{
+//         const response = await fetch('src/data/experiences.json');
+//         const data = await response.json();
+//         console.log(response);
+//         console.log("linebreak");
+//         console.log(data);
+//         return data;
+//     }
+//     catch(error){
+//         console.error("Failed to fetch data: ", error)
+//     }
+// }
+
+window.addEventListener('load', async ()=>{
+    //getExperienceData();
+    console.log('hi world');
+    const choice = await getExperiences('Texula');
+    console.log("The choice has been made: ");
+    console.log(choice);
 })
