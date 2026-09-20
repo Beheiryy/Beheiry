@@ -90,3 +90,35 @@ window.addEventListener('load', async ()=>{
     console.log("The choice has been made: ");
     console.log(choice);
 })
+
+const knowledgeForm = document.querySelector('.knowledge__form');
+console.log(knowledgeForm);
+console.log('hiworld');
+
+knowledgeForm.addEventListener('submit', async function(event){
+    event.preventDefault();
+    
+    const formData = new FormData(event.target);
+    console.log(formData);
+    
+    const formProps = Object.fromEntries(formData);
+    console.log('formProps::::');
+    console.log(formProps);
+    const str = formProps.experience__search;
+    console.log(str);
+
+    const searchResult = await getExperiences(str);
+    console.log(searchResult);
+    console.log('search result')
+
+    if(searchResult != undefined){
+        const responseHTML = `
+        <p>
+        ${searchResult.company}, working as ${searchResult.title}
+        </p>
+        `;
+    
+        knowledgeForm.insertAdjacentHTML('beforeend', responseHTML);
+    }
+
+})
