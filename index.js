@@ -118,7 +118,10 @@ knowledgeForm.addEventListener('submit', async function(event){
         </p>
         `;
     
-        knowledgeForm.insertAdjacentHTML('beforeend', responseHTML);
+        // knowledgeForm.insertAdjacentHTML('beforeend', responseHTML);
+        
+        const responseParagraph = document.querySelector('.knowledge__answers__paragraph');
+        responseParagraph.innerHTML = responseHTML;
     }
 
 })
