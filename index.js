@@ -111,6 +111,8 @@ knowledgeForm.addEventListener('submit', async function(event){
     console.log(searchResult);
     console.log('search result')
 
+    const responseParagraph = document.querySelector('.knowledge__answers__paragraph');
+
     if(searchResult != undefined){
         const responseHTML = `
         <p>
@@ -120,8 +122,10 @@ knowledgeForm.addEventListener('submit', async function(event){
     
         // knowledgeForm.insertAdjacentHTML('beforeend', responseHTML);
         
-        const responseParagraph = document.querySelector('.knowledge__answers__paragraph');
         responseParagraph.innerHTML = responseHTML;
+    }
+    else{
+        responseParagraph.innerHTML ="";
     }
 
 })

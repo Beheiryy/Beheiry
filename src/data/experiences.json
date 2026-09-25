@@ -1,5 +1,27 @@
 [
-    {"title":"Chief Commercial Officer", "company":"Texula"},
-    {"title":"Chief Executive Officer", "company":"Entrepreneurs' Society"},
-    {"title":"Founding Revenue Associate", "company":"Forcivate"}
+    {
+        "title": "Chief Commercial Officer",
+        "company":"Texula",
+        "employment-type":"Full-time",
+        "date":"Jun 2026 - Present",
+        "location":"Egypt",
+        "work-style":"On-site"
+    },
+    {
+        "title": "Chief Executive Officer",
+        "company":"Entrepreneurs' Society",
+        "employment-type":"Full-time",
+        "date":"Jan 2026 - Present",
+        "location":"Egypt",
+        "work-style":"On-site"
+    },
+    {
+        "title": "Founding Revenue Associate",
+        "company":"Forcivate",
+        "employment-type":"Part-time",
+        "date":"Aug 2026",
+        "location":"USA",
+        "work-style":"Remote"
+    }
+    
 ]
