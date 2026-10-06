@@ -1,3 +1,4 @@
+import { createExperiences } from '/src/backend/experiences.js';
 import {getExperiences} from '/src/backend/experiences.js';
 
 const hamMenu = document.querySelector('.navbar__ham-menu');
@@ -32,6 +33,9 @@ window.addEventListener('load', async ()=>{
     const choice = await getExperiences('Texula');
     console.log("The choice has been made: ");
     console.log(choice);
+
+    console.log('testing creation of experiences')
+    const test = await createExperiences();
 })
 
 const knowledgeForm = document.querySelector('.knowledge__form');

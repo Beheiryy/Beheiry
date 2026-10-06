@@ -31,6 +31,6 @@
 - [x] Continue advanced html and css course on youtube.
 - [ ] Add sitemap.xml, robots.txt, llms.txt
 - [x] Apply BEM naming to your website.
-- [ ] Have a scrollbar throughout your page (not actually scroll bar, but cool looking thing on the right or left).
+- [x] Have a scrollbar throughout your page (not actually scroll bar, but cool looking thing on the right or left).
 - [x] Have a scrollbar within experiences and between them.
 - [ ] Switch logos to SVG.
