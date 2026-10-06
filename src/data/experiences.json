@@ -5,7 +5,8 @@
         "employment-type":"Full-time",
         "date":"Jun 2026 - Present",
         "location":"Egypt",
-        "work-style":"On-site"
+        "work-style":"On-site",
+        "description":""
     },
     {
         "title": "Chief Executive Officer",
@@ -13,7 +14,8 @@
         "employment-type":"Full-time",
         "date":"Jan 2026 - Present",
         "location":"Egypt",
-        "work-style":"On-site"
+        "work-style":"On-site",
+        "description":""
     },
     {
         "title": "Founding Revenue Associate",
@@ -21,7 +23,8 @@
         "employment-type":"Part-time",
         "date":"Aug 2026",
         "location":"USA",
-        "work-style":"Remote"
+        "work-style":"Remote",
+        "description":""
     }
     
 ]

@@ -99,28 +99,21 @@ knowledgeForm.addEventListener('submit', async function(event){
     event.preventDefault();
     
     const formData = new FormData(event.target);
-    console.log(formData);
     
     const formProps = Object.fromEntries(formData);
-    console.log('formProps::::');
-    console.log(formProps);
+    
     const str = formProps.experience__search;
-    console.log(str);
 
     const searchResult = await getExperiences(str);
-    console.log(searchResult);
-    console.log('search result')
 
     const responseParagraph = document.querySelector('.knowledge__answers__paragraph');
 
     if(searchResult != undefined){
         const responseHTML = `
         <p>
-        ${searchResult.company}, working as ${searchResult.title}
+        ${searchResult.company}, working as ${searchResult.title}, located in ${searchResult.location}, during the period ${searchResult.date}
         </p>
         `;
-    
-        // knowledgeForm.insertAdjacentHTML('beforeend', responseHTML);
         
         responseParagraph.innerHTML = responseHTML;
     }
