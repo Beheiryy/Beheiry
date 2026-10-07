@@ -2,28 +2,28 @@
     {
         "title": "Chief Commercial Officer",
         "company":"Texula",
-        "employment-type":"Full-time",
+        "employment_type":"Full-time",
         "date":"Jun 2026 - Present",
         "location":"Egypt",
-        "work-style":"On-site",
+        "work_style":"On-site",
         "description":""
     },
     {
         "title": "Chief Executive Officer",
         "company":"Entrepreneurs' Society",
-        "employment-type":"Full-time",
+        "employment_type":"Full-time",
         "date":"Jan 2026 - Present",
         "location":"Egypt",
-        "work-style":"On-site",
+        "work_style":"On-site",
         "description":""
     },
     {
         "title": "Founding Revenue Associate",
         "company":"Forcivate",
-        "employment-type":"Part-time",
+        "employment_type":"Part-time",
         "date":"Aug 2026",
         "location":"USA",
-        "work-style":"Remote",
+        "work_style":"Remote",
         "description":""
     }
     

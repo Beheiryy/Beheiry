@@ -1,6 +1,4 @@
 import fs from '/fs/promsies';
-// const fs = require('fs');
-// import path from 'path';
 
 export async function getExperiences(category){
     try{
@@ -25,18 +23,6 @@ export async function createExperiences(){
     try{
         const response = await fetch('src/data/experiences.json');
         const rawJsonText = await response.text();
-        // const newJsonText = rawJsonText + 
-        // `,
-        // {
-        //     "title": "IT Intern",
-        //     "company":"HAP",
-        //     "employment-type":"Internship",
-        //     "date":"Jul 2025",
-        //     "location":"Cairo",
-        //     "work-style":"On-site",
-        //     "description":"Connected cables"
-        // }
-        // `;
 
         const parsedText = JSON.parse(rawJsonText);
         parsedText.push({

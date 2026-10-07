@@ -1,4 +1,5 @@
 ## Task List
+- [ ] Create a model/repo/validation/service so that you can edit experiences.json gracefully. This does not include connecting to database (that's the next step)
 - [ ] Add a feature to write an experience (in the search bar under knowledge graph) that then shows relevant skills (to the experience, if present).
 - [ ] Implement http requests and fetching by fake data first
 - [ ] Create user login to allow for crud operations on experiences (with authentication)
