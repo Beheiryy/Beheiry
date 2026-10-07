@@ -6,9 +6,10 @@ function createExperience(data){
         company: data.company,
         employment_type: data.employment_type,
         start_date: data.start_date,
-        end_date: data.end_date,
+        end_date: data.end_date ?? null,
         location: data.location,
         work_style: data.work_style,
-        description: data.description
+        description: data.description ?? "",
+        tags: data.tags ?? []
     }
 }
