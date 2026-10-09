@@ -1,4 +1,4 @@
-import fs from '/fs/promsies';
+//import fs from 'fs/promsies';
 
 export async function getExperiences(category){
     try{
@@ -19,37 +19,37 @@ export async function getExperiences(category){
     }
 }
 
-export async function createExperiences(){
-    try{
-        const response = await fetch('src/data/experiences.json');
-        const rawJsonText = await response.text();
+// export async function createExperiences(){
+//     try{
+//         const response = await fetch('src/data/experiences.json');
+//         const rawJsonText = await response.text();
 
-        const parsedText = JSON.parse(rawJsonText);
-        parsedText.push({
-            "title":"ITIntern",
-            "company":"HAP",
-            "employment-type":"Internship",
-            "date":"Jul 2025",
-            "location":"Cairo",
-            "work-style":"On-site",
-            "description":"Connected cables"
-        });
-        const updatedArrayText = JSON.stringify(parsedText, null ,2);
+//         const parsedText = JSON.parse(rawJsonText);
+//         parsedText.push({
+//             "title":"ITIntern",
+//             "company":"HAP",
+//             "employment-type":"Internship",
+//             "date":"Jul 2025",
+//             "location":"Cairo",
+//             "work-style":"On-site",
+//             "description":"Connected cables"
+//         });
+//         const updatedArrayText = JSON.stringify(parsedText, null ,2);
         
-        console.log(updatedArrayText)
+//         console.log(updatedArrayText)
         
-        const jsonFilePath = 'src/data/experiences.json';
+//         const jsonFilePath = 'src/data/experiences.json';
 
-        try{
-            await fs.writeFile(jsonFilePath, updatedArrayText, 'utf8');
-            console.log('Successfully published to JSON file!');
-        }
-        catch(error){
-            console.error('Failed to write JSON file: ', error)
-        }
+//         try{
+//             await fs.writeFile(jsonFilePath, updatedArrayText, 'utf8');
+//             console.log('Successfully published to JSON file!');
+//         }
+//         catch(error){
+//             console.error('Failed to write JSON file: ', error)
+//         }
 
-    }
-    catch(error){
-        console.error("Failed to create experience")
-    }
-}
+//     }
+//     catch(error){
+//         console.error("Failed to create experience")
+//     }
+// }
