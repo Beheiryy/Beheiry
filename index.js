@@ -1,5 +1,6 @@
-import { createExperiences } from '/src/backend/experiences.js';
-import {getExperiences} from '/src/backend/experiences.js';
+//import { createExperiences } from './src/backend/experiences.js';
+import {getExperiences} from './src/backend/experiences.js';
+import {createExperience} from '/src/backend/model/experiences.js'
 
 const hamMenu = document.querySelector('.navbar__ham-menu');
 console.log(typeof(hamMenu));
@@ -34,8 +35,8 @@ window.addEventListener('load', async ()=>{
     console.log("The choice has been made: ");
     console.log(choice);
 
-    console.log('testing creation of experiences')
-    const test = await createExperiences();
+    // console.log('testing creation of experiences')
+    // const test = await createExperiences();
 })
 
 const knowledgeForm = document.querySelector('.knowledge__form');
@@ -45,27 +46,40 @@ console.log('hiworld');
 knowledgeForm.addEventListener('submit', async function(event){
     event.preventDefault();
     
-    const formData = new FormData(event.target);
+    // const formData = new FormData(event.target);
     
-    const formProps = Object.fromEntries(formData);
+    // const formProps = Object.fromEntries(formData);
     
-    const str = formProps.experience__search;
+    // const str = formProps.experience__search;
 
-    const searchResult = await getExperiences(str);
+    // const searchResult = await getExperiences(str);
 
-    const responseParagraph = document.querySelector('.knowledge__answers__paragraph');
+    // const responseParagraph = document.querySelector('.knowledge__answers__paragraph');
 
-    if(searchResult != undefined){
-        const responseHTML = `
-        <p>
-        ${searchResult.company}, working as ${searchResult.title}, located in ${searchResult.location}, during the period ${searchResult.date}
-        </p>
-        `;
+    // if(searchResult != undefined){
+    //     const responseHTML = `
+    //     <p>
+    //     ${searchResult.company}, working as ${searchResult.title}, located in ${searchResult.location}, during the period ${searchResult.date}
+    //     </p>
+    //     `;
         
-        responseParagraph.innerHTML = responseHTML;
+    //     responseParagraph.innerHTML = responseHTML;
+    // }
+    // else{
+    //     responseParagraph.innerHTML ="";
+    // }
+
+    const data = {
+        title: "Chief Dancer",
+        company: "Dancing Co",
+        employment_type: "Full-time",
+        start_date: "October 7th",
+        end_date: "October 9th",
+        location: "Cairo",
+        work_style: "Rough",
+        description: "Dance very hard",
+        tags: ['dance', 'love']
     }
-    else{
-        responseParagraph.innerHTML ="";
-    }
+    createExperience(data)    
 
 })
