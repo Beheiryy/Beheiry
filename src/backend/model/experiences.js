@@ -1,7 +1,6 @@
 import { getNewId } from '../repository/experiences.js'
 
 export async function createExperience(data){
-    console.log('reached final dest')
     return{
         id: getNewId(),
         title: data.title,

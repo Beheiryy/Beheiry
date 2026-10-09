@@ -1,6 +1,5 @@
 export async function getNewId(){
     try{
-        console.log('reached getNewid')
         const response = await fetch('src/data/experiences.json');
         const rawJsonText = await response.text();
         const parsedText = JSON.parse(rawJsonText);
@@ -21,3 +20,4 @@ export async function getNewId(){
         console.error("Failed to create experience")
     }
 }
+
