@@ -23,3 +23,9 @@ You either know style or you don't. If you don't, experiment until you reach som
 
 # 14/9/2026
 Back to logging in. Was pretty "unfocused" last week with many things going on, especially as uni was back. Now I'm back to the focused mode and will be logging in regularly. Will keep updating everything. Today I've started working with Javascript DOM and it's amazing. It's also amazing how things are actually very simple but can appear very fluid.
+
+# 9/10/2026
+Wow. I haven't logged on in a while. Over the past month I've been restructuring my priorities and now I'm back to Software Engineering, strong. The more I work on this project the more valuable I realize it is. Can't log in all past changes, but major changes include:
+* restructuring the project into meaningful folders with separation of concerns
+* establishment of a backend server that handles requests instead of having everything run on frontend
+
